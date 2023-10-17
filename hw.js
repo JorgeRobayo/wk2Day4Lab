@@ -61,6 +61,8 @@
 //4.    Write a function that prints out how many bills you would recieve in change after paying a certain amount.  
 // Return in as large denominations as possible. Parameters should be amount paid and amount cost
 
+// ===================================SOLUTIONS=================================
+
 function billReturn (amountPaid, amountCost){
     // let billDenomination = [100, 50, 20, 10, 5, 1]
     let difference = (amountPaid - amountCost)
@@ -74,6 +76,8 @@ function billReturn (amountPaid, amountCost){
 }
 
 billReturn(1000, 60)
+
+//=======================================================================
 
 // 5.   Write a program that uses console.log to print all the numbers from 1 to 100 with two exceptions. For numbers divisible by 3, print "Fizz" instead of the number, and for numbers divisible by 5 (and not 3), print "Buzz" instead. When you have that working, modify your program to print "FizzBuzz", for numbers that are divisible by both 3 and 5 (and still print "Fizz" or "Buzz" for numbers divisible by only one of those).
 
